@@ -3,9 +3,9 @@
 # LIBRARIES AND MODULES
 import sys
 
-from PyQt6 import QtCore # Core functionality of Qt
-from PyQt6 import QtWidgets # UI elements functionality
-from PyQt6.uic.load_ui import loadUi 
+from PyQt5 import QtCore # Core functionality of Qt
+from PyQt5 import QtWidgets # UI elements functionality
+from PyQt5.uic import loadUi 
 
 
 
