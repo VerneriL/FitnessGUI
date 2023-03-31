@@ -91,6 +91,12 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="minimum">
+     <double>100.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>400.000000000000000</double>
+    </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
@@ -114,6 +120,12 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="minimum">
+     <double>20.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>3000.000000000000000</double>
+    </property>
    </widget>
    <widget class="QSpinBox" name="neckSpinBox">
     <property name="geometry">
@@ -124,6 +136,9 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="minimum">
+     <number>10</number>
+    </property>
    </widget>
    <widget class="QSpinBox" name="waistSpinBox">
     <property name="geometry">
@@ -133,6 +148,12 @@
       <width>42</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="minimum">
+     <number>30</number>
+    </property>
+    <property name="maximum">
+     <number>200</number>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
@@ -169,6 +190,12 @@
       <width>41</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="minimum">
+     <number>50</number>
+    </property>
+    <property name="maximum">
+     <number>200</number>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">

@@ -15,7 +15,7 @@ def time_diff(t1, t2):
     hours = second / 3600
     return hours
 
-def date_diff_2(d1, d2, unit: str):
+def date_difference(d1, d2, unit: str):
     units = {'day': 1, 'year': 365, 'month': 30}
     d1 = datetime.datetime.strptime(d1, "%Y-%m-%d")
     d2 = datetime.datetime.strptime(d2, "%Y-%m-%d")
@@ -37,7 +37,7 @@ if __name__=='__main__':
 
     date1 = '2023-03-21'
     date2 = '2023-03-17'
-    ero = date_diff_2(date1, date2, 'day')
+    ero = date_difference(date1, date2, 'day')
     print('ero oli', ero, 'päivää')
 
     time1 = '10:00:00'
